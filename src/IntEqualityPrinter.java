@@ -4,7 +4,7 @@ public class IntEqualityPrinter {
 
         if (firstNumber < 0 || secondNumber < 0 || thirdNumber < 0) {
             System.out.println("Invalid Value");
-        } else if((firstNumber == secondNumber) && (secondNumber == thirdNumber) && (firstNumber == thirdNumber)) {
+        } else if((secondNumber == thirdNumber) && (firstNumber == thirdNumber)) {
             System.out.println("All numbers are equal");
         } else if ((firstNumber != secondNumber) && (secondNumber != thirdNumber) && (firstNumber != thirdNumber)) {
             System.out.println("All numbers are different");
